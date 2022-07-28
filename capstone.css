@@ -1,0 +1,363 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #3c3a39;
+}
+
+.container .upper-nav {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 65%;
+  margin-right: 10%;
+}
+
+.container .upper-nav i {
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.container .upper-nav p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.container .lower-nav {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.lower-nav .logo a {
+  display: none;
+}
+
+.hamburger {
+  margin-left: 24px;
+  filter:
+    invert(38%) sepia(41%) saturate(291%) hue-rotate(179deg)
+    brightness(88%) contrast(97%);
+}
+
+.close {
+  display: none;
+  margin-left: 40px;
+  color: black;
+  cursor: pointer;
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.lower-nav .information ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-left: -200px;
+}
+
+.lower-nav .active ul {
+  margin-left: -100px;
+}
+
+.lower-nav .information ul li {
+  display: flex;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.lower-nav .information ul li a {
+  text-decoration: none;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.company {
+  margin-right: 60px;
+  display: none;
+}
+
+.main {
+  background-image: url(./images/backgroundM.png);
+}
+
+.main img {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.hello .heading {
+  color: #ec5242;
+  margin-top: 140px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.hello h2 {
+  color: #ec5242;
+  text-transform: uppercase;
+  font-family: "Cocogoose", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.introduction {
+  width: 80%;
+  margin-top: -20px;
+  border: 2px solid #fff;
+  height: 80px;
+  margin-right: 20%;
+}
+
+.hall {
+  text-transform: capitalize;
+}
+.main-catagories {
+  background: #272a31;
+  background-image: url(images/tr-line.jpg);
+}
+
+.under-line {
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 24px;
+  color: #fff;
+  position: relative;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.under-line::after {
+  content: "";
+  height: 2px;
+  width: 30%;
+  background: red;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  margin-top: 4px;
+}
+
+.substation-design {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  background: url(images/light.jpg);
+  border: 1px solid #fff;
+  box-shadow: #272a31;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+.substation-design img {
+  width: 60%;
+  height: 40%;
+  margin-left: 20%;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  align-items: center;
+}
+
+.substation-design h3 {
+  margin-left: 24px;
+  margin-top: 20%;
+  color: #ec5242;
+  align-items: center;
+}
+
+.substation-design p {
+  margin-left: 24px;
+  /* width: 40%; */
+  margin-top: 10%;
+  color: #fff;
+  align-items: center;
+}
+
+.see {
+  display: inline-block;
+  justify-content: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 60px;
+
+  margin-left: 40%;
+}
+
+.see a {
+  color: #fff;
+}
+
+.see::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #272a31;
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  margin-top: -120px;
+}
+
+.two {
+  margin-left: 24px;
+  background: #fff;
+}
+
+.two .under-line {
+  display: inline-block;
+  margin-left: 30%;
+  color: black;
+}
+
+.profesionalist {
+  display: flex;
+  flex-direction: column;
+}
+
+.profesionalist .title {
+  display: inline-block;
+  position: relative;
+  color: #ec5242;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title::after {
+  content: "";
+  height: 2px;
+  width: 30%;
+  background: #272a31;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 4px;
+}
+
+.profesionalist .resume {
+  width: 80%;
+}
+
+.profesionalist .left {
+  margin-left: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .upper-nav {
+    display: flex;
+  }
+
+  .container .lower-nav {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .lower-nav .logo {
+    width: 0.005%;
+    height: auto;
+  }
+
+  .lower-nav .logo a {
+    display: flex;
+    margin-left: 60px;
+    text-decoration: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .lower-nav .information ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 400px;
+    color: black;
+  }
+
+  .lower-nav .information ul li a .is-actives {
+    margin-top: 0;
+    color: black;
+  }
+
+  .is-active {
+    color: red;
+  }
+
+  .company {
+    display: flex;
+  }
+  .company button {
+    border-color: red;
+    border-radius: 1px solid red;
+    padding: 12px;
+  }
+
+  .introduction {
+    width: 40%;
+  }
+
+  .main-catagories-inner {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .substation-design {
+    flex-direction: column;
+    border: none;
+  }
+
+  .substation-design img {
+    width: 60%;
+    height: 60%;
+    margin-top: 0;
+  }
+
+  .substation-design p {
+    margin-top: 0;
+  }
+
+  .titles h3 {
+    margin-top: -20px;
+    position: relative;
+    align-items: center;
+  }
+
+  .trainers {
+    display: flex;
+    flex-direction: row;
+    margin: 24px;
+    padding-bottom: 24px;
+  }
+
+  .profesionalist {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+  }
+
+  .profesionalist img {
+    height: 80%;
+    width: 80%;
+  }
+}
