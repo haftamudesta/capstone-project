@@ -3,7 +3,7 @@ const section2 = {
   trainers: ['haftamu Desta', 'solomon gebereslassie', 'thegay kidu', 'kinfe gebrekirstos', 'berihu tesfay', 'haftamu mokenen'],
   title: ['substation construction expert', 'Test and commissioning expert', 'Railway Engineer', 'Transmmission construction expert', 'Substation design expert', 'Transmmission substation director'],
   resume: ['graduated from AAiT in electrical engineering for rail way sysytems and from MIT in Electrical and electronics Engineering', 'Test and commissiong expert at industrial park developent corroparation.previously seniour power engineer at METEC ', 'Rail way senior integration Engineer. He has reach exprience in rail awy systems especially in rail way automation system', 'kinfe gebrekirstos is transmmission construction senior expert. he has more than ten years exprience in transmmission construction', 'distribution substation design and system integration exper.He has worked for more than 15 year in different companies', 'specialized in communication system more in fiber communication system.'],
-}
+};
 
 const hambergur = document.querySelector('.hamburger');
 const information = document.querySelector('.information');
