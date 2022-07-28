@@ -26,6 +26,13 @@ body {
   cursor: pointer;
 }
 
+.substation-design p {
+  margin-left: 24px;
+  margin-top: 10%;
+  color: #fff;
+  align-items: center;
+}
+
 .container .upper-nav p {
   color: #fff;
   font-size: 16px;
@@ -54,7 +61,7 @@ body {
   color: black;
   cursor: pointer;
   font-size: 40px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .lower-nav .information ul {
@@ -73,6 +80,7 @@ body {
   margin-left: 24px;
   margin-right: 24px;
 }
+
 .lower-nav .information ul li a {
   text-decoration: none;
   margin-top: 40px;
@@ -127,6 +135,7 @@ body {
 .hall {
   text-transform: capitalize;
 }
+
 .main-catagories {
   background: #272a31;
   background-image: url(images/tr-line.jpg);
@@ -160,7 +169,6 @@ body {
   flex-direction: row;
   background: url(images/light.jpg);
   border: 1px solid #fff;
-  box-shadow: #272a31;
   margin-left: 20px;
   margin-top: 12px;
 }
@@ -181,14 +189,6 @@ body {
   align-items: center;
 }
 
-.substation-design p {
-  margin-left: 24px;
-  /* width: 40%; */
-  margin-top: 10%;
-  color: #fff;
-  align-items: center;
-}
-
 .see {
   display: inline-block;
   justify-content: center;
@@ -199,7 +199,7 @@ body {
   margin-left: 40%;
 }
 
-.see a {
+.more {
   color: #fff;
 }
 
@@ -305,9 +305,9 @@ body {
   .company {
     display: flex;
   }
+
   .company button {
     border-color: red;
-    border-radius: 1px solid red;
     padding: 12px;
   }
 
