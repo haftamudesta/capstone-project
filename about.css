@@ -39,26 +39,26 @@ header {
 }
 
 .logo-seminar p {
-    margin-left: 25%;
-  }
+  margin-left: 25%;
+}
 
-  .see-past p {
-    margin-left: 10%;
-  }
+.see-past p {
+  margin-left: 10%;
+}
 
-  .seminar-2015 p {
-    color: #fff;
-    font-size: 18px;
-    margin-left: 20%;
-    margin-top: -30px;
-  }
+.seminar-2015 p {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 20%;
+  margin-top: -30px;
+}
 
-  .seminar-2012 p {
-    color: #fff;
-    font-size: 18px;
-    margin-left: 20%;
-    margin-top: -30px;
-  }
+.seminar-2012 p {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 20%;
+  margin-top: -30px;
+}
 
 .container .upper-nav p {
   color: #fff;
@@ -79,7 +79,7 @@ header {
 
 .hamburger {
   margin-left: 24px;
-  filter: 
+  filter:
     invert(38%) sepia(41%) saturate(291%) hue-rotate(179deg)
     brightness(88%) contrast(97%);
 }
@@ -94,14 +94,14 @@ header {
 }
 
 .partner-list ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 24px;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
 .lower-nav .information ul {
   display: flex;
@@ -117,8 +117,8 @@ header {
 }
 
 .partner-list ul li {
-    color: #fff;
-  }
+  color: #fff;
+}
 
 .lower-nav .active ul li {
   margin-left: -100px;

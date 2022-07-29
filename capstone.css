@@ -1,8 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.cdnfonts.com/css/Lato");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap");
-
-@import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 body {
@@ -73,6 +71,16 @@ header {
   margin-top: 0;
 }
 
+.partner-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  margin-left: 16px;
+  margin-right: 40px;
+}
+
 .lower-nav .information ul {
   display: flex;
   flex-direction: column;
@@ -84,6 +92,10 @@ header {
   margin-left: -100px;
   height: 100vh;
   margin-top: 40px;
+}
+
+.partner-list ul li {
+  margin-bottom: 24px;
 }
 
 .lower-nav .active ul li {
@@ -297,20 +309,6 @@ header {
   margin-top: -10px;
 }
 
-.partner-list ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 24px;
-  margin-left: 16px;
-  margin-right: 40px;
-}
-
-.partner-list ul li {
-  margin-bottom: 24px;
-}
-
 footer {
   background: #fff;
 }
@@ -385,6 +383,7 @@ footer {
   .introduction {
     width: 40%;
   }
+
   .main-catagories-inner {
     display: flex;
     flex-direction: row;
