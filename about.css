@@ -1,8 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.cdnfonts.com/css/Lato");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap");
-
-@import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 body {
@@ -40,6 +38,28 @@ header {
   align-items: center;
 }
 
+.logo-seminar p {
+    margin-left: 25%;
+  }
+
+  .see-past p {
+    margin-left: 10%;
+  }
+
+  .seminar-2015 p {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-top: -30px;
+  }
+
+  .seminar-2012 p {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-top: -30px;
+  }
+
 .container .upper-nav p {
   color: #fff;
   font-size: 16px;
@@ -73,6 +93,16 @@ header {
   margin-top: 0;
 }
 
+.partner-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
 .lower-nav .information ul {
   display: flex;
   flex-direction: column;
@@ -85,6 +115,10 @@ header {
   height: 100vh;
   margin-top: 40px;
 }
+
+.partner-list ul li {
+    color: #fff;
+  }
 
 .lower-nav .active ul li {
   margin-left: -100px;
@@ -150,17 +184,13 @@ header {
 .logo-seminar h4 {
   margin-left: 30%;
 }
+
 .seminar-upper .regional {
   margin-top: -16px;
 }
 
-.logo-seminar p {
-  margin-left: 25%;
-}
-
 .logo-seminar img {
   border: 2px solid #fff;
-  box-shadow: #fff;
   width: 40%;
   height: 40%;
   margin-left: 30%;
@@ -191,10 +221,6 @@ hr {
   left: 40%;
 }
 
-.see-past p {
-  margin-left: 10%;
-}
-
 .images-seminar {
   margin-top: 40px;
 }
@@ -216,13 +242,6 @@ hr {
   margin-left: 10%;
 }
 
-.seminar-2015 p {
-  color: #fff;
-  font-size: 18px;
-  margin-left: 20%;
-  margin-top: -30px;
-}
-
 .seminar-2012 {
   display: flex;
   flex-direction: column;
@@ -238,13 +257,6 @@ hr {
   color: #fff;
   font-size: 40px;
   margin-left: 10%;
-}
-
-.seminar-2012 p {
-  color: #fff;
-  font-size: 18px;
-  margin-left: 20%;
-  margin-top: -30px;
 }
 
 .section4 {
@@ -268,20 +280,6 @@ hr {
   position: absolute;
   left: 12px;
   margin-top: -10px;
-}
-
-.partner-list ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 24px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.partner-list ul li {
-  color: #fff;
 }
 
 .all-lists {
@@ -392,6 +390,7 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
   }
+
   .seminar-2012 {
     margin-left: 5%;
   }
@@ -402,7 +401,7 @@ footer {
     list-style: none;
   }
 
-  .all-lists ul {
+  .all-lists .all-list {
     display: flex;
     width: 95%;
     flex-direction: row;
