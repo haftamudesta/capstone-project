@@ -1,6 +1,6 @@
 # Project Name:first capstone project
 This is my first capstone project at Microverse.
-- [link is here](https://haftamudesta.github.io/)
+- [link is here](https://haftamudesta.github.io/capstone.html)
 ***
 ## Built With
 - <span style ="color:orange">HTML</span> 

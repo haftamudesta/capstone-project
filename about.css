@@ -157,6 +157,8 @@ header {
 
 .hello h2 {
   color: #ec5242;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
   margin-left: 20%;
 }
 
@@ -238,8 +240,9 @@ hr {
 
 .seminar-2015 h4 {
   color: #fff;
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 10%;
+  font-family: "swap", sans-serif;
 }
 
 .seminar-2012 {
@@ -255,8 +258,9 @@ hr {
 
 .seminar-2012 h4 {
   color: #fff;
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 10%;
+  font-family: "swap", sans-serif;
 }
 
 .section4 {
@@ -372,7 +376,26 @@ footer {
   }
 
   .introduction {
-    width: 40%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .contacts-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .email {
+    margin-left: 25%;
+  }
+
+  .eep {
+    margin-left: 1%;
+  }
+
+  .about {
+    margin-left: 30%;
   }
 
   .seminar-upper {
@@ -382,6 +405,8 @@ footer {
 
   .seminar-upper .regional {
     margin-left: 0;
+    margin-top: 60px;
+    margin-left: -8%;
   }
 
   .images-seminar {

@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  height: 120px;
+  height: 5px;
 }
 
 .container {
@@ -60,6 +60,7 @@ header {
   filter:
     invert(38%) sepia(41%) saturate(291%) hue-rotate(179deg)
     brightness(88%) contrast(97%);
+  margin-bottom: -12px;
 }
 
 .close {
@@ -96,6 +97,7 @@ header {
 
 .partner-list ul li {
   margin-bottom: 24px;
+  color: #fff;
 }
 
 .lower-nav .active ul li {
@@ -110,8 +112,13 @@ header {
   margin-right: 24px;
 }
 
+#information-active {
+  color: #ec5242;
+}
+
 .lower-nav .information ul li a {
   text-decoration: none;
+  color: black;
   cursor: pointer;
 }
 
@@ -296,6 +303,7 @@ header {
 .partner {
   display: inline-block;
   position: relative;
+  color: #fff;
   margin-left: 40%;
 }
 
@@ -327,6 +335,10 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  header {
+    height: 130px;
+  }
+
   .container .upper-nav {
     display: flex;
   }
