@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  height: 120px;
+  height: 0;
 }
 
 .container {
@@ -149,6 +149,7 @@ header {
 .heading {
   margin-left: 30%;
   color: #ec5242;
+  font-family: "cocogoose", sans-serif;
 }
 
 .hello {
@@ -322,6 +323,9 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  header {
+    height: 120px;
+  }
   .container .upper-nav {
     display: flex;
   }
