@@ -250,13 +250,15 @@ header {
 }
 
 .two {
-  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 24px; */
   background: #fff;
 }
 
 .two .under-line {
   display: inline-block;
-  margin-left: 30%;
+  margin-left: 40%;
   color: black;
 }
 
@@ -267,7 +269,8 @@ header {
 }
 
 .profesionalist img {
-  height: 85%;
+  height: 80%;
+  object-fit: cover;
 }
 
 .profesionalist .title {
@@ -276,6 +279,7 @@ header {
   color: #ec5242;
   font-size: 16px;
   font-weight: 400;
+  margin-top: -25px;
 }
 
 .title::after {
@@ -291,10 +295,12 @@ header {
 
 .profesionalist .resume {
   width: 80%;
+  margin-top: -10px;
 }
 
 .profesionalist .left {
   margin-left: 24px;
+  margin-top: -20px;
 }
 
 .section3 {
