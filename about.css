@@ -134,7 +134,12 @@ header {
 
 .lower-nav .information ul li a {
   text-decoration: none;
+  color: black;
   cursor: pointer;
+}
+
+#information-active {
+  color: #ec5242;
 }
 
 .company {
@@ -144,16 +149,17 @@ header {
 
 .main {
   background-image: url(./images/backgroundM.png);
+  background-position-x: -40%;
+}
+
+.home-desktop {
+  display: none;
 }
 
 .heading {
   margin-left: 30%;
   color: #ec5242;
   font-family: "cocogoose", sans-serif;
-}
-
-.hello {
-  background-image: url(images/backgroundM.png);
 }
 
 .hello h2 {
@@ -169,6 +175,10 @@ header {
   border: 1px solid #fff;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.eep {
+  margin-left: 15%;
 }
 
 .email {
@@ -192,11 +202,16 @@ header {
   margin-top: -16px;
 }
 
-.logo-seminar img {
-  border: 2px solid #fff;
-  width: 40%;
-  height: 40%;
-  margin-left: 30%;
+.seminar-upper-desktop {
+  display: none;
+}
+
+.image-border {
+  border: 1px solid rgb(212, 209, 209);
+  width: 50%;
+  height: 30%;
+  margin-left: 15%;
+  padding-left: 25%;
   margin-top: 20px;
 }
 
@@ -232,11 +247,11 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 200px;
   background-image: url(images/mitian.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 200px;
 }
 
 .seminar-2015 h4 {
@@ -380,10 +395,51 @@ footer {
     padding: 12px;
   }
 
-  .introduction {
-    width: 60%;
-    margin-left: 20%;
+  .heading {
+    display: none;
+  }
+
+  .hello h2 {
+    display: inline-block;
+    position: relative;
+    color: #ec5242;
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+    margin-left: 30%;
     margin-right: 20%;
+    margin-bottom: 100px;
+  }
+
+  .hello h2::after {
+    content: "";
+    height: 2px;
+    width: 5%;
+    background: #ec5242;
+    position: absolute;
+    left: 40%;
+    bottom: -30px;
+  }
+
+  .home-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10%;
+  }
+
+  .home-desktop .fa-solid.fa-angle-right {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: #ec5242;
+  }
+
+  .introduction {
+    width: 65%;
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-top: -4px;
   }
 
   .contacts-desktop {
@@ -391,12 +447,12 @@ footer {
     flex-direction: row;
   }
 
-  .email {
-    margin-left: 25%;
+  .eep {
+    margin-left: 5px;
   }
 
-  .eep {
-    margin-left: 1%;
+  .email {
+    margin-left: 25%;
   }
 
   .about {
@@ -404,13 +460,34 @@ footer {
   }
 
   .seminar-upper {
-    display: flex;
-    flex-direction: row;
+    display: none;
   }
 
-  .seminar-upper .regional {
-    margin-top: 60px;
-    margin-left: -8%;
+  .image-border {
+    border: 1px solid rgb(212, 209, 209);
+    width: 10%;
+    height: 20%;
+    padding-left: 5%;
+    margin-left: 30%;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .seminar-upper-desktop1 {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    margin-left: 10%;
+  }
+
+  .seminar-upper-desktop1::after {
+    content: "";
+    height: 2px;
+    width: 3%;
+    background: #ec5242;
+    position: absolute;
+    left: 40%;
+    bottom: 3px;
   }
 
   .images-seminar {
@@ -420,8 +497,20 @@ footer {
     margin-right: 10%;
   }
 
-  .seminar-2012 {
-    margin-left: 5%;
+  .seminar-2015 h4 {
+    margin-top: 50px;
+  }
+
+  .seminar-2015 p {
+    margin-top: -70px;
+  }
+
+  .seminar-2012 h4 {
+    margin-top: 50px;
+  }
+
+  .seminar-2012 p {
+    margin-top: -70px;
   }
 
   .all-lists {
