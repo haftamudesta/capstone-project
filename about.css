@@ -493,8 +493,9 @@ footer {
   .images-seminar {
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: space-between;
+    margin-left: 22%;
+    margin-right: 22%;
   }
 
   .seminar-2015 h4 {
@@ -502,7 +503,10 @@ footer {
   }
 
   .seminar-2015 p {
+    width: 120%;
     margin-top: -70px;
+    padding-left: 40px;
+    padding-right: 12px;
   }
 
   .seminar-2012 h4 {
@@ -510,7 +514,11 @@ footer {
   }
 
   .seminar-2012 p {
+    width: 120%;
     margin-top: -70px;
+    padding-left: 40px;
+    padding-right: 12px;
+
   }
 
   .all-lists {
