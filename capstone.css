@@ -179,7 +179,6 @@ header {
 
 .under-line {
   display: inline-block;
-  margin-left: 50%;
   margin-top: 24px;
   color: #fff;
   position: relative;
@@ -191,11 +190,11 @@ header {
 .under-line::after {
   content: "";
   height: 2px;
-  width: 30%;
+  width: 10%;
   background: #ec5242;
   position: absolute;
   bottom: 0;
-  left: 30%;
+  left: 50%;
   margin-top: 4px;
 }
 
@@ -257,8 +256,11 @@ header {
 
 .two .under-line {
   display: inline-block;
-  margin-left: 40%;
   color: black;
+}
+
+.center {
+  text-align: center;
 }
 
 .profesionalist {

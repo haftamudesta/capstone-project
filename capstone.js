@@ -22,7 +22,9 @@ close.addEventListener('click', (events) => {
   close.style.display = 'none';
   information.classList.remove('active');
 });
-const detailtrainers = `<p class="under-line">trainers of the program</p>
+const detailtrainers = `<div class="center">
+<p class="under-line">trainers of the program</p>
+</div>
 <div class="trainers">
     
     <div class="right-side">
