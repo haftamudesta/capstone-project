@@ -1,0 +1,572 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 0;
+}
+
+.container {
+  background: #3c3a39;
+}
+
+.container .upper-nav {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 65%;
+  margin-right: 10%;
+}
+
+.container .upper-nav i {
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.substation-design p {
+  margin-left: 24px;
+  margin-top: 10%;
+  color: #fff;
+  align-items: center;
+}
+
+.logo-seminar p {
+  margin-left: 25%;
+}
+
+.see-past p {
+  margin-left: 10%;
+}
+
+.seminar-2015 p {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 20%;
+  margin-top: -30px;
+}
+
+.seminar-2012 p {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 20%;
+  margin-top: -30px;
+}
+
+.container .upper-nav p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.container .lower-nav {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.lower-nav .logo a {
+  display: none;
+  width: 10%;
+  height: 5%;
+}
+
+.hamburger {
+  margin-left: 24px;
+  filter:
+    invert(38%) sepia(41%) saturate(291%) hue-rotate(179deg)
+    brightness(88%) contrast(97%);
+}
+
+.close {
+  display: none;
+  margin-left: 40px;
+  color: black;
+  cursor: pointer;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.partner-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.lower-nav .information ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-left: -200px;
+}
+
+.lower-nav .active ul {
+  margin-left: -100px;
+  height: 100vh;
+  margin-top: 40px;
+}
+
+.partner-list ul li {
+  color: #fff;
+}
+
+.lower-nav .active ul li {
+  margin-left: -100px;
+  margin-top: 6px;
+  height: 50px;
+}
+
+.lower-nav .information ul li {
+  display: flex;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.lower-nav .information ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#information-active {
+  color: #ec5242;
+}
+
+.company {
+  margin-right: 60px;
+  display: none;
+}
+
+.main {
+  background-image: url(./images/backgroundM.png);
+  background-position-x: -40%;
+}
+
+.home-desktop {
+  display: none;
+}
+
+.heading {
+  margin-left: 30%;
+  color: #ec5242;
+  font-family: "cocogoose", sans-serif;
+}
+
+.hello h2 {
+  color: #ec5242;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  margin-left: 20%;
+}
+
+.introduction {
+  width: 80%;
+  background: #fff;
+  border: 1px solid #fff;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.eep {
+  margin-left: 15%;
+}
+
+.email {
+  margin-left: 15%;
+}
+
+.about {
+  margin-left: 20%;
+}
+
+.logo-seminar {
+  background: #fff;
+  margin-top: 40px;
+}
+
+.logo-seminar h4 {
+  margin-left: 30%;
+}
+
+.seminar-upper .regional {
+  margin-top: -16px;
+}
+
+.seminar-upper-desktop {
+  display: none;
+}
+
+.image-border {
+  border: 1px solid rgb(212, 209, 209);
+  width: 50%;
+  height: 30%;
+  margin-left: 15%;
+  padding-left: 25%;
+  margin-top: 20px;
+}
+
+hr {
+  background: #fff;
+}
+
+.section3 {
+  background: #fff;
+}
+
+.see-past h3 {
+  display: inline-block;
+  position: relative;
+  margin-left: 15%;
+}
+
+.see-past h3::after {
+  content: "";
+  height: 2px;
+  width: 10%;
+  background: #ec5242;
+  position: absolute;
+  bottom: -10px;
+  left: 40%;
+}
+
+.images-seminar {
+  margin-top: 40px;
+}
+
+.seminar-2015 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/mitian.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.seminar-2015 h4 {
+  color: #fff;
+  font-size: 50px;
+  margin-left: 10%;
+  font-family: "swap", sans-serif;
+}
+
+.seminar-2012 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  background-image: url(images/mitains1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.seminar-2012 h4 {
+  color: #fff;
+  font-size: 50px;
+  margin-left: 10%;
+  font-family: "swap", sans-serif;
+}
+
+.section4 {
+  background: #272a31;
+  margin-top: 40px;
+}
+
+.partner {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+.partner::after {
+  content: "";
+  height: 2px;
+  width: 50%;
+  background: #ec5242;
+  position: absolute;
+  left: 12px;
+  margin-top: -10px;
+}
+
+.all-lists {
+  display: none;
+}
+
+.upper-list {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.lower-list {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+footer {
+  background: #fff;
+}
+
+.footers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footers img {
+  width: 30%;
+  height: 30%;
+  margin-bottom: 24px;
+}
+
+.footers-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 120px;
+  }
+
+  .container .upper-nav {
+    display: flex;
+  }
+
+  .container .lower-nav {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .lower-nav .logo {
+    width: 0.005%;
+    height: auto;
+  }
+
+  .lower-nav .logo a {
+    display: flex;
+    margin-left: 60px;
+    text-decoration: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .lower-nav .information ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 400px;
+    color: black;
+  }
+
+  .lower-nav .information ul li a .is-actives {
+    margin-top: 0;
+    color: black;
+  }
+
+  .is-active {
+    color: red;
+  }
+
+  .company {
+    display: flex;
+  }
+
+  .company button {
+    border-color: red;
+    padding: 12px;
+  }
+
+  .heading {
+    display: none;
+  }
+
+  .hello h2 {
+    display: inline-block;
+    position: relative;
+    color: #ec5242;
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-bottom: 100px;
+  }
+
+  .hello h2::after {
+    content: "";
+    height: 2px;
+    width: 5%;
+    background: #ec5242;
+    position: absolute;
+    left: 40%;
+    bottom: -30px;
+  }
+
+  .home-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10%;
+  }
+
+  .home-desktop .fa-solid.fa-angle-right {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: #ec5242;
+  }
+
+  .introduction {
+    width: 65%;
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-top: -4px;
+  }
+
+  .contacts-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .eep {
+    margin-left: 5px;
+  }
+
+  .email {
+    margin-left: 25%;
+  }
+
+  .about {
+    margin-left: 30%;
+  }
+
+  .seminar-upper {
+    display: none;
+  }
+
+  .image-border {
+    border: 1px solid rgb(212, 209, 209);
+    width: 10%;
+    height: 20%;
+    padding-left: 5%;
+    margin-left: 30%;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .see-past h3 {
+    margin-left: 35%;
+  }
+
+  .see-past p {
+    margin-left: 30%;
+  }
+
+  .seminar-upper-desktop1 {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    margin-left: 10%;
+  }
+
+  .seminar-upper-desktop1::after {
+    content: "";
+    height: 2px;
+    width: 3%;
+    background: #ec5242;
+    position: absolute;
+    left: 40%;
+    bottom: 3px;
+  }
+
+  .images-seminar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .seminar-2015 h4 {
+    margin-top: 50px;
+  }
+
+  .seminar-2015 p {
+    width: 120%;
+    margin-top: -70px;
+    padding-left: 10%;
+    padding-right: 12px;
+    color: rgb(252, 249, 249);
+  }
+
+  .seminar-2012 h4 {
+    margin-top: 50px;
+  }
+
+  .seminar-2012 p {
+    width: 120%;
+    margin-top: -70px;
+    padding-left: 10%;
+    padding-right: 12px;
+  }
+
+  .all-lists {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .all-lists .all-list {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .all-lists ul li {
+    color: #fff;
+  }
+
+  .upper-list {
+    display: none;
+  }
+
+  .lower-list {
+    display: none;
+  }
+
+  .footers {
+    display: none;
+  }
+
+  .footers-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footers-desktop p {
+    display: flex;
+    align-items: center;
+  }
+}
